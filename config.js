@@ -142,7 +142,7 @@ global.xteamkey = 'APIKEY'
 /*Xcoders*/
 global.xckey = 'BOhjM2hUVn'
 // KATA "APIKEY" GANTI DENGAN APIKEY MU SENDIRI
-global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
+global.keysZens = ['285c513f6556', '68637855ac', '66aa575454', 'ead81e891b', '8331b843f7', 'ec3fe6f05831', '0c65d4c037']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.lolkeysapi = ['85faf717d0545d14074659ad']
 global.violetics = '39f5-d6ba-9be3'
