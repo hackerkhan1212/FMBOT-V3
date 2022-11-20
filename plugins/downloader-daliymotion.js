@@ -6,7 +6,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 if (!text) throw '*Enter links*\n Example: https://www.dailymotion.com/video/....'
-let res = await axios('https://violetics.pw/api/downloader/dailymotion?apikey=beta&url=' + text)
+let res = await axios('https://violetics.pw/api/downloader/dailymotion?apikey=${global.violetics}&url=' + text)
 let json = res.data
 let dapet = json.result.url
 	let row = Object.values(dapet).map((v, index) => ({
