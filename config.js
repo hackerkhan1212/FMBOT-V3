@@ -5,10 +5,10 @@ import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 
 /*⫘⫘⫘⫘ WAKTU ⫘⫘⫘⫘⫘*/
-global.wibh = moment.tz('Asia/Jakarta').format('HH')
-global.wibm = moment.tz('Asia/Jakarta').format('mm')
-global.wibs = moment.tz('Asia/Jakarta').format('ss')
-global.wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+global.wibh = moment.tz('Asia/Karachi').format('HH')
+global.wibm = moment.tz('Asia/Karachi').format('mm')
+global.wibs = moment.tz('Asia/Karachi').format('ss')
+global.wib = moment.tz('Asia/Karachi').format('HH:mm:ss')
 global.wktuwib = `${global.wibh} H ${global.wibm} M ${global.wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -30,63 +30,64 @@ global.wktuwib = `${global.wibh} H ${global.wibm} M ${global.wibs} S`
 // Kalau gapunya di biarin aja!, atau ga di kasih tanda '-'
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/eabdalmufid_' //Instagram mu
-global.sgh = 'https://github.com/eabdalmufid' //Github mu
-global.swb = 'https://linktr.ee/whatsappbotz '
-global.sfb = 'https://www.facebook.com/'
-global.syt = 'https://www.youtube.com/@silencebot' //YT Mu
-global.sgc = 'https://chat.whatsapp.com/HpxyS6b45SoGIKG7LHddiM' //Group WhatsApp mu
-global.sdc = 'https://www.youtube.com/@silencebot' //Discord Mu
-global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
+global.sig = 'https://www.instagram.com/iamibrahim_2005/' //Instagram mu
+global.sgh = 'https://github.com/Thewiskey' //Github mu
+global.swb = 'https://iamibrahim.ddns.net '
+global.sfb = 'https://www.facebook.com/itsxibrahim/'
+global.syt = 'https://www.youtube.com/results?search_query=.
+' //YT Mu
+global.sgc = 'https://api.whatsapp.com/send?phone=923229931076' //Group WhatsApp mu
+global.sdc = 'https://www.youtube.com/results?search_query=.' //Discord Mu
+global.snh = 'https://iamibrahim.ddns.net' //Make ini aja gausah di ganti.
 
 /*⫘⫘⫘⫘ALL PAYMENT⫘⫘⫘⫘⫘*/
-global.pdana = '088215689772' //Dana
-global.povo = '088215689772' //Ovo
-global.pgopay = '088215689772' //Gopay
-global.ppulsa = '088215689772' //Pulsa 
-global.ppulsa2 = '0895394988123' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
-global.psaweria = 'https://saweria.co/FangzBot' //Saweria
-global.donate = '〔 Dᴏɴᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕\n\n››╭─〘 *Donasi* 〙\n╭╡📮: Donasi ngab jangan make bot doang.│\n┝‷✧ *Ovo:* 088215689772\n│┝‷✧ *Dana:* 088215689772\n│┝‷✧ *Gopay:* 088215689772\n│╰───···─────\n│⁺◛˖ Ingin Donasi? Chat nomor owner\n╰──────────···───╮'
+global.pdana = '923229931076' //Dana
+global.povo = '923229931076' //Ovo
+global.pgopay = '923229931076' //Gopay
+global.ppulsa = '923229931076' //Pulsa 
+global.ppulsa2 = '923229931076' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
+global.psaweria = 'https://saweria.co/' //Saweria
+global.donate = '〔 Dᴏɴᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕\n\n››╭─〘 *Donasi* 〙\n╭╡📮: Donate, dont just use bots.╰──────────···───╮'
 
 /*⫘⫘⫘⫘ GLOBAL NOMOR ⫘⫘⫘⫘⫘*/
-global.nomorbot = '62895394988123' //Nomor Bot mu
-global.nomorown = '6288215689772' //Nomormu
-global.namebot = 'Fangz BOT' //Nama bot mu
-global.nameown = 'Fangz Ganz' //Nama mu
+global.nomorbot = '923219842745' //Nomor Bot mu
+global.nomorown = '923229931076' //Nomormu
+global.namebot = '𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT' //Nama bot mu
+global.nameown = '𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞' //Nama mu
 
 /*⫘⫘⫘⫘GLOBAL FUNCTION⫘⫘⫘⫘⫘*/
 //KALAU MAGER EDIT, MENDING GAUSAH DI APA² IN. SAMA AJA//
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰' //Gausah di apa² in
-global.after = 'Bot by https://bit.ly/3QJOy9F'
-global.swo = 'https://wa.me/6288215689772'
-global.author = '                © Fangz BOT By Fangz' //Wm author
-global.botintro = 'Hallo, Kenalin saya Fangz BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *FangzXD* Saya di rilis pada tanggal\n🗓 ️_16/04/2022_'
+global.after = 'Bot by http://iamibrahim.ddns.net/'
+global.swo = 'https://wa.me/923229931076'
+global.author = '                © 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT By 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞' //Wm author
+global.botintro = 'Hello, Meet me 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT I will help you anytime & anywhere, I am a WhatsApp bot assistant made by *𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞* I was released on\n🗓 ️_16/04/2022_'
 global.sallam = '💬 Waalaikumsallam'
-global.thumbBanned = 'https://telegra.ph/file/b810a9fbc18afc1aaa6c8.jpg'
-global.thumbWarn = 'https://telegra.ph/file/38f72943a6f152112d128.jpg'
-global.speed = 'https://telegra.ph/file/733725060ca73e223a0ab.jpg'
-global.ow = 'https://telegra.ph/file/43b5e212d5e713dc3f35d.jpg'
-global.intro = 'https://telegra.ph/file/489bbe15f3be834f1ac84.jpg'
-global.donsi = 'https://telegra.ph/file/a60e05249296c38bbb0d5.jpg'
-global.assalam = 'https://telegra.ph/file/867134be21091efeee226.jpg'
-global.collab = 'https://telegra.ph/file/09f8b94f8d820153034e2.jpg'
-global.dand = 'https://telegra.ph/file/7fb83420644e354aa0eec.jpg'
-global.thumbEnable = 'https://telegra.ph/file/8c89c250c1cda88d92b3d.jpg'
-global.runtime = 'https://telegra.ph/file/624dda855b899a0c727a6.jpg'
-global.serialimg = 'https://telegra.ph/file/eaf30ca57d5c4c2d7a6f0.jpg'
-global.jlimit = 'https://telegra.ph/file/449ce1a72312c8fcb99f6.jpg'
-global.thumbDidyou = 'https://telegra.ph/file/e27e5468705a73de2328d.jpg'
-global.verify = 'https://telegra.ph/file/3b66f40f5d3f1748f993f.jpg'
-global.thumbLevelup = 'https://telegra.ph/file/4d4e0b19e3feb1fa4c3cb.jpg'
-global.thumbEror = 'https://telegra.ph/file/430b8f1ae35c655bfee93.jpg'
-global.thumbnailCuaca = 'https://telegra.ph/file/636af9d2fb8194f4dbb94.jpg'
-global.guest = 'https://telegra.ph/file/b0ac5006061e9bc535a8f.jpg'
-global.thumbmenfes = 'https://telegra.ph/file/4be6353aeb9057e44825f.jpg'
+global.thumbBanned = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbWarn = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.speed = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.ow = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.intro = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.donsi = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.assalam = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.collab = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.dand = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbEnable = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.runtime = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.serialimg = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.jlimit = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbDidyou = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.verify = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbLevelup = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbEror = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbnailCuaca = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.guest = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbmenfes = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
 global.owner = [
-  ['6281392709059'], //Owner1
-  ['6285172446692'], //Owner2
-  ['6281392709059', 'CANTIK ! 🥶', true] //Ini buat kamu!
+  ['923229931076'], //Owner1
+  ['923229931076'], //Owner2
+  ['923229931076', 'CANTIK ! 🥶', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -120,7 +121,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'APIKEY',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'APIKEY',
+  'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'APIKEY',
   'https://pencarikode.xyz': 'pais',
@@ -141,23 +142,26 @@ global.xteamkey = 'APIKEY'
 /*Xcoders*/
 global.xckey = 'BOhjM2hUVn'
 // KATA "APIKEY" GANTI DENGAN APIKEY MU SENDIRI
+global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.lolkeysapi = ['85faf717d0545d14074659ad']
 
 /*⫘⫘⫘⫘ WATERMAK ⫘⫘⫘⫘⫘*/
 //GANTI JANGAN NGASAL.
-global.wm = '                「 赤 FANGZ - BOT ⁩இ 」' //Wm
-global.wm2 = '➳༻❀Fangz - Ganz❁ུ۪۪.;:୭̥.' //Name Wm
-global.wm3 = '赤 FANGZ - BOT'
+global.wm = '                「 赤 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 - BOT ⁩இ 」' //Wm
+global.wm2 = '➳༻❀𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞❁ུ۪۪.;:୭̥.' //Name Wm
+global.wm3 = '赤 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 - BOT'
 global.hiasan = '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦'
 global.botdate = `🗓️️ 𝗗𝗮𝘁𝗲: ${week} ${date}`
-global.bottime = `𝗪𝗔𝗞𝗧𝗨 : ${wib}`
-global.titlebot = '𝗬𝗧: FangzXD' //Ganti serah lu
+global.bottime = `𝐖𝐞𝐞𝐤 : ${wib}`
+global.titlebot = '𝗬𝗧: None' //Ganti serah lu
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.logo = 'https://ibb.co/17RY7x9'
-global.thumb = 'https://telegra.ph/file/22abfec5e8c5b3e6596d1.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/312d5d7a5ad4d4f8b5d7a.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/3377bec81cd8614917d24.jpg' //Image Bcgcb
+global.logo = 'https://ibb.co/4ZtqtRc'
+global.thumb = 'https://telegra.ph/file/3b7ec1308edb07983efef.png' //Thumbnail nya
+global.thumb2 = 'https://telegra.ph/file/3b7ec1308edb07983efef.png' //Thumbnail 2
+global.thumbbc = 'https://telegra.ph/file/3b7ec1308edb07983efef.png' //Image Bcgcb
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -445,8 +449,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 
 /** Fake Reply */
 global.THUMBNAIL = await (await fetch(global.thumbbc)).buffer()
-global.judul = `Hari ${week}`
-global.body = `𝗪𝗔𝗞𝗧𝗨 : ${wib}`
+global.judul = `Week ${week}`
+global.body = `Zone: ${wib}`
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti
@@ -462,18 +466,18 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf' 
 global.djson = 'application/json' 
   
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 
 /*⫘⫘⫘⫘ FAKE SIZE ⫘⫘⫘⫘⫘*/
 global.fsizedoc = '99999999999999' // 10TB
 global.fpagedoc = '999' //Gausah di ganti.
 
 /*⫘⫘⫘⫘ BIO OWNER ⫘⫘⫘⫘⫘*/
-global.nameowner = 'FangzXD'
-global.umurowner = '15'
-global.asalowner = 'Yogyakarta, Jawa tengah'
-global.nomorowner = 'wa.me/6288215689772'
-global.pacarowner = 'Ga ada pacar'
+global.nameowner = '𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞'
+global.umurowner = '17'
+global.asalowner = 'none'
+global.nomorowner = 'wa.me/923229931076'
+global.pacarowner = 'Single'
 /*⫘⫘⫘⫘ HIASAN ⫘⫘⫘⫘⫘*/
 // DEFAULT MENU
 global.dmenut = 'ଓ═┅═━–〈' //top
@@ -503,12 +507,12 @@ global.fsizedoc = '1'.repeat(10)
 global.fpagedoc = '1'.repeat(10)
 
 /*⫘⫘⫘⫘ STICKER ⫘⫘⫘⫘⫘*/
-global.stickpack = 'YT: FangzXD'
-global.stickauth = `© Fangz BOT\nOfficial by Whatsapp\nNomor: ${global.nomorbot}`
-global.packname = 'By FangzXD'
+global.stickpack = 'YT:None'
+global.stickauth = `© 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT\nOfficial by Whatsapp\nNomor: ${global.nomorbot}`
+global.packname = 'By 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞'
 
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier =71// The higher, The harder levelup
 
 /*⫘⫘⫘⫘ GLOBAL EMOJI ⫘⫘⫘⫘⫘*/
 global.rpg = {
@@ -559,24 +563,24 @@ global.fpay = {
 	key: {
 		remoteJid: '0@s.whatsapp.net',
 		fromMe: false,
-		id: 'FangzXD',
+		id: '𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞',
 		participant: '0@s.whatsapp.net'
 	},
 	message: {
 		requestPaymentMessage: {
-			currencyCodeIso4217: "USD",
+			currencyCodeIso4217: "PKR",
 			amount1000: 999999999,
 			requestFrom: '0@s.whatsapp.net',
 			noteMessage: {
 				extendedTextMessage: {
-					text: 'Hay kak👋'
+					text: 'Huh how👋'
 				}
 			},
 			expiryTimestamp: 999999999,
 			amount: {
 				value: 91929291929,
 				offset: 1000,
-				currencyCode: "USD"
+				currencyCode: "PKR"
 			}
 		}
 	}
@@ -591,19 +595,19 @@ global.fpayment = (m) => {
 	},
 	message: {
 		requestPaymentMessage: {
-			currencyCodeIso4217: "USD",
+			currencyCodeIso4217: "PKR",
 			amount1000: 999999999,
 			requestFrom: (m !== null && m !== undefined) ? m.sender : '0@s.whatsapp.net',
 			noteMessage: {
 				extendedTextMessage: {
-					text: (m !== null && m !== undefined) ? m.text : 'Subs YT: FangzXD'
+					text: (m !== null && m !== undefined) ? m.text : 'Subs YT: No yt'
 				}
 			},
 			expiryTimestamp: 999999999,
 			amount: {
 				value: 91929291929,
 				offset: 1000,
-				currencyCode: "USD"
+				currencyCode: "PKR"
 			}
 		}
 	}
