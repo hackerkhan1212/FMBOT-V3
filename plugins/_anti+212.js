@@ -14,7 +14,7 @@ conn.reply(htki + ' Kick User ' + htka)
 conn.groupParticipantsUpdate(m.chat, [user], "remove")
    } 
    
-   if (m.sender.startsWith('92' || '92')) {
+   if (m.sender.startsWith('91' || '91')) {
    	global.db.data.users[m.sender].banned = true
 conn.reply(htki + ' Banned Number ' + htka)
 conn.reply(htki + ' Kick User ' + htka)
