@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, {text, usedPrefix, command, conn}) => {
 let noteks = 'Kosong'
-  if (!text) throw `Contoh penggunaan ${usedPrefix}${command} Free Fire`
+  if (!text) throw `Example of use ${usedPrefix}${command} Pubg`
   
   if (command == 'apkdone') {
   let f = await fetch(`https://dhn-api.herokuapp.com/api/apk/apkdone?apps=${text}&apikey=4ca83deeb14d61d16cf0`)
@@ -15,7 +15,7 @@ let dapet = xx.result
 	}))
 	let button = {
 		buttonText: `𝍤 ${command} Search!`,
-		description: `Silakan pilih list Search di bawah\n\n*❏Search:* ${text}\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕`,
+		description: `Please select the Search list below\n\n*❏Search:* ${text}\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -32,7 +32,7 @@ let dapet = xx.result
 	}))
 	let button = {
 		buttonText: `𝍤 ${command} Search!`,
-		description: `Silakan pilih list Search di bawah\n\n*❏Search:* ${text}\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕`,
+		description: `Please select the Search list below\n\n*❏Search:* ${text}\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -48,8 +48,8 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here ☂️`,
+		description: `⚡ Please choose ${command} Search in the button below...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -65,11 +65,11 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
-		footerText: wm
-	}
-	return await conn.sendListM(m.chat, button, row, m)
+		buttonText: `☂️ ${command} Search Here ☂️`,
+                description: `⚡ Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change the text again `,
+                footerText: wm
+}
+return await conn. sendListM(m. chat, button, row, m)
 }
 
 if (command == 'happymod') {
@@ -82,9 +82,9 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
-		footerText: wm
+		buttonText: `☂️ ${command} Search Here ☂️`,
+                description: `⚡ Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change the text again `,
+                footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
 }
@@ -99,8 +99,8 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here ☂️`,
+		description: `⚡ Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change text again`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -116,8 +116,8 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here ☂️`,
+		description: `⚡Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change text again`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -133,8 +133,8 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here ☂️`,
+		description: `⚡ Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change teks lagi`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
@@ -150,8 +150,8 @@ let dapet = xx.result
 		rowId: usedPrefix + 'ss ' + v.apps_linkdl
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here ☂️`,
+		description: `⚡ Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change text again`,
 		footerText: wm
 	}
 	return await conn.sendListM(m.chat, button, row, m)
