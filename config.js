@@ -34,8 +34,8 @@ global.sig = 'https://www.instagram.com/iamibrahim_2005/' //Instagram mu
 global.sgh = 'https://github.com/Thewiskey' //Github mu
 global.swb = 'https://iamibrahim.ddns.net '
 global.sfb = 'https://www.facebook.com/itsxibrahim/'
-global.syt = 'https://www.youtube.com/results?search_query=.
-' //YT Mu
+global.syt = 'https://www.youtube.com/results?search_query=.'
+ //YT Mu
 global.sgc = 'https://api.whatsapp.com/send?phone=923229931076' //Group WhatsApp mu
 global.sdc = 'https://www.youtube.com/results?search_query=.' //Discord Mu
 global.snh = 'https://iamibrahim.ddns.net' //Make ini aja gausah di ganti.
