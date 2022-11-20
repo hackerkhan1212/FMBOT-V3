@@ -4,7 +4,7 @@ export async function before(m) {
     if (m.chat.endsWith('broadcast') || m.fromMe || m.isGroup) return
 
     let user = global.db.data.users[m.sender]
-    let txt = `👋Hai, ${ucapan()}
+    let txt = `👋Hi, ${ucapan()}
 
 ${user.banned ? '📮Sorry, you are banned & Cant use this bot anymore' : `💬 Thanks for using ${this.user.name} help?`}`.trim()
 
