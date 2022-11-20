@@ -34,8 +34,8 @@ let row = Object.keys(lis, liss).map((v, index) => ({
 		rowId: usedPrefix + 'get ' + lis[v]
 	}))
 	let button = {
-		buttonText: `☂️ Tema Disini ☂️`,
-		description: `⚡ Silakan pilih tema di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ Theme Here ☂️`,
+		description: `⚡ Please choose a theme in the button below...\n*Text you send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change the text again`,
 		footerText: wm
 	}
 	return conn.sendListM(m.chat, button, row, m)
