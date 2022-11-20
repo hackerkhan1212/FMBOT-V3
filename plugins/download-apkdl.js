@@ -1,7 +1,7 @@
 import fetch from "node-fetch"
 let handler = async(m, { conn, usedPrefix, command, text }) => {
 
-    if (!text) return conn.reply(m.chat, 'Masukan Nama apk nya!', m)
+    if (!text) return conn.reply(m.chat, 'Enter the name of the apk!', m)
 
 let f = await fetch(`https://nzcha-apii.herokuapp.com/apk-search?q=${text}`)
 let xx = await f.json()
@@ -11,7 +11,7 @@ return `
 🏷️Nama Aplikasi : ${v.name}
 🔗Link : ${v.url}
 📂Download : ${v.dl_url}
-📝Tentang Game : ${v.desc}
+📝About App : ${v.desc}
       `.trim()
   }).filter(v => v).join('\n\n【 *APK SEARCH* 】\n\n')
   //m.reply(teks)
