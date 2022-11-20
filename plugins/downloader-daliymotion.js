@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
-if (!text) throw '*Masukkan link*\n Example: https://www.dailymotion.com/video/x6dmhc9'
+if (!text) throw '*Enter links*\n Example: https://www.dailymotion.com/video/....'
 let res = await axios('https://violetics.pw/api/downloader/dailymotion?apikey=beta&url=' + text)
 let json = res.data
 let dapet = json.result.url
@@ -15,8 +15,8 @@ let dapet = json.result.url
 		rowId: usedPrefix + 'get ' + v.url
 	}))
 	let button = {
-		buttonText: `☂️ ${command} Search Disini ☂️`,
-		description: `⚡ Hai ${name}, Silakan pilih ${command} Search di tombol di bawah...\n*Teks yang anda kirim:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`,
+		buttonText: `☂️ ${command} Search Here☂️`,
+		description: `⚡ Hai ${name}, Please select ${command} Search in the button below...\n*Text to send:* ${text}\n\nRetype *${usedPrefix + command}* your text to change text again`,
 		footerText: wm
 	}
 	return conn.sendListM(m.chat, button, row, m)
