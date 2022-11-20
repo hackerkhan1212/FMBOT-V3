@@ -20,15 +20,15 @@ let handler = async (m, { conn, args }) => {
       }
     }
   })
-  let url = `https://api.lolhuman.xyz/api/tiktokwm?apikey=1a5d403c0f75c316c9920b35&url=${args[0]}`
+  let url = `https://api.lolhuman.xyz/api/tiktokwm?apikey=${global.lolkeysapi}&url=${args[0]}`
   let txt = `🚀 *Link:* ${await (await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}`
   await conn.sendFile(m.chat, url, 'tiktokaudio.mp3', `
 ┏┉━━━━━━━━━━━❏
 ┆ *TIKTOK MP3*
 ├┈┈┈┈┈┈┈┈┈┈┈
-┆• *Judul:* 
+┆• *Title:* 
 │• *Type:* MP3
-┆• *📥 Ukuran File:* 
+┆• *📥 File Size:* 
 └❏
 `.trim(), m, null, {
     document: { url }, mimetype: 'audio/mpeg', fileName: 'tiktok.mp3', conntextInfo: {
@@ -37,8 +37,8 @@ let handler = async (m, { conn, args }) => {
         body: 'Now Playing...',
         description: 'Now Playing...',
         mediaType: 2,
-        thumbnail: await (await fetch('https://telegra.ph/file/9e323ad1f4b2d52579416.jpg')).buffer(),
-        mediaUrl: `https://youtu.be/E1nLzgkOH8A`
+        thumbnail: await (await fetch('https://telegra.ph/file/3b7ec1308edb07983efef.png')).buffer(),
+        mediaUrl: `https://www.youtube.com/results?search_query=.`
       }
     }
   })
